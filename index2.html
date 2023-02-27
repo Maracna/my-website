@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <strong><a href="file://wsl.localhost/Ubuntu/home/maracna/aa-projects/my-website/index.html">Home</a></strong>
+            <strong><a href="file://wsl.localhost/Ubuntu/home/maracna/aa-projects/my-website/index3.html">Sitelist</a></strong>
+            <strong><a href="file://wsl.localhost/Ubuntu/home/maracna/aa-projects/my-website/index4.html">Pics</a></strong>
+        </div>
+
+        <h1>Form</h1>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Say Hi</legend>
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                </div>
+
+                <div>
+                    <label for="food">Favourite Food:</label>
+                    <input type="text" id="food" name="food" placeholder="Pizza">
+                </div>
+
+                <div>
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Make it better!!!" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <label for="like">Check if you like the website!</label>
+                    <input type="checkbox" id="like" name="like">
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+
+
+        </div>
+    </body>
+</html>
